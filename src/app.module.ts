@@ -10,9 +10,7 @@ import { BlogModule } from './blog/blog.module';
 
 @Module({
   imports: [
-    MongooseModule.forRoot(
-      'mongodb+srv://suhrobrahmatullayev973132:ANvA3PfkuRQVUb1g@ssc.gp81u.mongodb.net/?retryWrites=true&w=majority&appName=ssc',
-    ),
+    MongooseModule.forRoot('mongodb'),
     TrainerModule,
     UserModule,
     UploadModule,
